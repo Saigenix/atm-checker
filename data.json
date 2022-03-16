@@ -1,0 +1,10 @@
+[ {
+    "id" : "1",
+    "atmName" : "sbi_atm",
+    "atmLocation" : "sbi_atm_location",
+    "AvailableCash": "100000",
+    "transactionLimit": "20000",
+    "acceptedCards" : ["visa","mastercard","rupay"],
+    "open": true 
+}
+]
