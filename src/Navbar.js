@@ -3,13 +3,11 @@ import React from 'react'
 export default function Navbar() {
   return (
     <>
-
-
 <div className="nav">
   <input type="checkbox" id="nav-check"/>
   <div className="nav-header">
     <div className="nav-title">
-      Work_pro
+      Atm Checker
     </div>
   </div>
   <div className="nav-btn">
