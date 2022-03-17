@@ -114,21 +114,24 @@ margin: 20px;
   }
 }
 .nav {
-  height: 50px;
+  height: 13vh;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: #1F2024;
   position: relative;
 }
 
 .nav > .nav-header {
   display: inline;
+  font-family: 'Readex Pro', sans-serif;
+  text-shadow: 3px 3px 5px #000000;
 }
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  font-size: 25px;
+  font-size: 7vh;
   color: #fff;
   padding: 10px 10px 10px 10px;
+  transform: translateX(39vw);
 }
 
 .nav > .nav-btn {
@@ -202,7 +205,13 @@ margin: 20px;
   }
 
 }
-
+.logo{
+  display: inline-block;
+  width: 23vh;
+  height: 6vh;
+  transform: translateY(5px);
+  margin-right: 10px;
+}
 
 input[type=text]:focus {
   border: 3px solid #555;
