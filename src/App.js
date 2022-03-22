@@ -2,19 +2,20 @@ import './App.css';
 import Navbar from './Navbar';
 import React, {useState, useEffect} from 'react';
 import Dropdown  from './Dropdown';
+import AtmDrop from './AtmDrop';
 function App() {
   const [city, setcity] = useState('Nanded');
-  const [data , setdata] = useState([]);
+  const [dataatm , setdata] = useState([]);
   const atmData = 'https://saigenix.github.io/atm-checker/data.json';
   const handleFoodChange = (event) => {
     setcity(event.target.value);
   };
   const getData= async () => {
     try {
-      const respornce = await fetch(atmData);
-      const data = await respornce.json();
+      const responce = await fetch(atmData);
+      const data = await responce.json();
       setdata(data);
-      console.log(data);
+      console.log(dataatm);
     } catch (error) {
       console.log(error);
     }
@@ -44,7 +45,17 @@ function App() {
         onChange={handleFoodChange}
       />
       </div>
+
       <p>your city is {city}!</p>
+      <AtmDrop
+        options={[
+          { label: dataatm[0].city, value: 'Nanded' },
+        ]}
+        value={dataatm[0].city}
+
+
+
+      />
     
     </div>
     </div>

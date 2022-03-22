@@ -2,14 +2,14 @@
     "id" : "1",
     "atmName" : "sbi_atm",
     "atmLocation" : "sbi_atm_location",
-    "city" : "city",
+    "city" : "Nanded",
     "AvailableCash": "100000",
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
 }, {
     "id" : "2",
-    "atmName" : "sbi_atm",
+    "atmName" : "Pune",
     "atmLocation" : "sbi_atm_location",
     "city" : "city",
     "AvailableCash": "100000",
@@ -18,7 +18,7 @@
     "open": true 
 }, {
     "id" : "3",
-    "atmName" : "sbi_atm",
+    "atmName" : "Latur",
     "atmLocation" : "sbi_atm_location",
     "city" : "city",
     "AvailableCash": "100000",
@@ -27,7 +27,7 @@
     "open": true 
 }, {
     "id" : "4",
-    "atmName" : "sbi_atm",
+    "atmName" : "Nagpur",
     "atmLocation" : "sbi_atm_location",
     "city" : "city",
     "AvailableCash": "100000",
@@ -36,7 +36,7 @@
     "open": true 
 }, {
     "id" : "5",
-    "atmName" : "sbi_atm",
+    "atmName" : "London",
     "atmLocation" : "sbi_atm_location",
     "city" : "city",
     "AvailableCash": "100000",
@@ -45,7 +45,7 @@
     "open": true 
 }, {
     "id" : "6",
-    "atmName" : "sbi_atm",
+    "atmName" : "kolhapur",
     "atmLocation" : "sbi_atm_location",
     "city" : "city",
     "AvailableCash": "100000",
