@@ -212,6 +212,33 @@ margin: 20px;
   transform: translateY(5px);
   margin-right: 10px;
 }
+.locsearch{
+  display: flex;
+  margin: 8vh;
+}
+.Location{
+  display: flex;
+  height: 5vh;
+  width: 15vh;
+  border-radius: 7px;
+  background-color: #CA4A52;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Readex Pro', sans-serif;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.301);
+  z-index: 1;
+
+}
+.Search{
+  height: 5vh;
+  width: 30vw;
+  background-color: #EEEEEE;
+  transform: translateX(-5px);
+  color: #9B9B9B;
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 2.5vh;
+}
 
 input[type=text]:focus {
   border: 3px solid #555;
