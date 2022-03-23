@@ -6,11 +6,15 @@ import Dropdown  from './Dropdown';
 import Showdata from './Showdata';
 function App() {
   const [dataatm , setdata] = useState([]);
+  const [arry , setarray] = useState([]);
   const [city, setcity] = useState('Nanded');
   const [loding, setloding] = useState(false);
   const atmData = 'https://saigenix.github.io/atm-checker/data.json';
   const handleFoodChange = (event) => {
     setcity(event.target.value);
+    const result = dataatm.filter(data => data.city === event.target.value);
+    setarray(result);
+    console.log(result);
   };
   
   const getData= async () => {
@@ -19,6 +23,7 @@ function App() {
       const data = await responce.json();
       // console.log(data);
       setdata(data);
+      setarray(data);
       setloding(true);
     } catch (error) {
       console.log(error);
@@ -53,7 +58,7 @@ function App() {
           { label: 'Latkahi tri', value: 'Latdoish' },
           { label: 'Nagpur', value: 'Nagpur' },
           { label: 'Nashik', value: 'Nashik' },
-          { label: 'Kolhapur', value: 'Kolhapur' },
+          { label: 'Mumbai', value: 'Mumbai' },
         ]}
         value={city}
         onChange={handleFoodChange}
@@ -61,7 +66,7 @@ function App() {
       </div>
      <p>your city is {city}!</p>
       {loding ? ( 
-        <Showdata dataatm={dataatm}/> )
+        <Showdata dataatm={arry}/> )
         : (
         <span>loading .....</span>
       )}
