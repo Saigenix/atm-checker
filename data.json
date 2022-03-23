@@ -45,9 +45,9 @@
     "open": true 
 }, {
     "id" : "6",
-    "atmName" : "SBI kolhapur",
+    "atmName" : "SBI Mumbai",
     "atmLocation" : "sbi_atm_location",
-    "city" : "kolhapur",
+    "city" : "Mumbai",
     "AvailableCash": "100000",
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
