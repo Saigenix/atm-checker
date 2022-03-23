@@ -3,7 +3,7 @@
     "atmName" : "SBI Nanded",
     "atmLocation" : "sbi_atm_location",
     "city" : "Nanded",
-    "AvailableCash": "100000",
+    "AvailableCash": 100000,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
@@ -12,7 +12,7 @@
     "atmName" : "SBI pune 1",
     "atmLocation" : "sbi_atm_location",
     "city" : "Pune",
-    "AvailableCash": "100000",
+    "AvailableCash": 100000,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
@@ -21,7 +21,7 @@
     "atmName" : "SBI Latur",
     "atmLocation" : "sbi_atm_location",
     "city" : "Latur",
-    "AvailableCash": "100000",
+    "AvailableCash": 100000,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
@@ -30,7 +30,7 @@
     "atmName" : "SBI Nagpur",
     "atmLocation" : "sbi_atm_location",
     "city" : "Nagpur",
-    "AvailableCash": "100000",
+    "AvailableCash": 0,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
@@ -39,7 +39,7 @@
     "atmName" : "Bank of London",
     "atmLocation" : "sbi_atm_location",
     "city" : "London",
-    "AvailableCash": "100000",
+    "AvailableCash": 100000,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
@@ -48,7 +48,7 @@
     "atmName" : "SBI Mumbai",
     "atmLocation" : "sbi_atm_location",
     "city" : "Mumbai",
-    "AvailableCash": "100000",
+    "AvailableCash": 100000,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 

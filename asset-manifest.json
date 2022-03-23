@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/atm-checker/static/css/main.5096b109.css",
-    "main.js": "/atm-checker/static/js/main.8be9135d.js",
+    "main.css": "/atm-checker/static/css/main.f14faaf4.css",
+    "main.js": "/atm-checker/static/js/main.f4f8dacd.js",
     "static/js/787.99fc31ab.chunk.js": "/atm-checker/static/js/787.99fc31ab.chunk.js",
+    "static/media/bg.jpeg": "/atm-checker/static/media/bg.f960e9879452d7ab77a8.jpeg",
     "static/media/atm_header.png": "/atm-checker/static/media/atm_header.a2497db3d8e32f0b2b55.png",
+    "static/media/Vector.png": "/atm-checker/static/media/Vector.b223a30f49aaa9e9f9be.png",
     "index.html": "/atm-checker/index.html",
-    "main.5096b109.css.map": "/atm-checker/static/css/main.5096b109.css.map",
-    "main.8be9135d.js.map": "/atm-checker/static/js/main.8be9135d.js.map",
+    "main.f14faaf4.css.map": "/atm-checker/static/css/main.f14faaf4.css.map",
+    "main.f4f8dacd.js.map": "/atm-checker/static/js/main.f4f8dacd.js.map",
     "787.99fc31ab.chunk.js.map": "/atm-checker/static/js/787.99fc31ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5096b109.css",
-    "static/js/main.8be9135d.js"
+    "static/css/main.f14faaf4.css",
+    "static/js/main.f4f8dacd.js"
   ]
 }
