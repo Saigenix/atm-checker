@@ -8,7 +8,7 @@ export default function Navbar() {
   <div className="nav-header">
      <div className="nav-title">
      <img src={require('./assets/atm_header.png')} alt="logo" className="logo"/>
-      Helper
+      DEETS
     </div>
   </div>
   <div className="nav-btn">

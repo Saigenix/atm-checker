@@ -46,6 +46,8 @@ function App() {
     <div className="App">
      <Navbar/>
      <div>
+    <img src={require('./assets/Vector.png')} className='rupee' alt='LOGO'/>
+     <div className='Cash' > Cash</div>
      <div className='locsearch'>
      <div className='Location'><p> Location: </p></div>
       <Dropdown
@@ -64,13 +66,14 @@ function App() {
         onChange={handleFoodChange}
       />
       </div>
-     <p>your city is {city}!</p>
+     <p className='txt'>Showing ATMs Available In {city}! . . .</p>
+     
       {loding ? ( 
         <Showdata dataatm={arry}/> )
         : (
         <span>loading .....</span>
       )}
-    
+      
     </div>
     </div>
   );
