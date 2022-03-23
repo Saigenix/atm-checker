@@ -2,26 +2,40 @@ import './App.css';
 import Navbar from './Navbar';
 import React, {useState, useEffect} from 'react';
 import Dropdown  from './Dropdown';
-import AtmDrop from './AtmDrop';
+
+import Showdata from './Showdata';
 function App() {
-  const [city, setcity] = useState('Nanded');
   const [dataatm , setdata] = useState([]);
+  const [city, setcity] = useState('Nanded');
+  const [loding, setloding] = useState(false);
   const atmData = 'https://saigenix.github.io/atm-checker/data.json';
   const handleFoodChange = (event) => {
     setcity(event.target.value);
   };
+  
   const getData= async () => {
     try {
       const responce = await fetch(atmData);
       const data = await responce.json();
+      // console.log(data);
       setdata(data);
-      console.log(dataatm);
+      setloding(true);
     } catch (error) {
       console.log(error);
+      setloding(false);
     }
   };
 
- useEffect(() => {  getData(); }, []);
+  useEffect(() => {
+    getData();
+    }, []);
+  
+  useEffect(() => {
+    // console.log(dataatm);
+    
+    // action on update of movies
+}, [dataatm]);
+
 
   return (
     <div className="App">
@@ -45,22 +59,19 @@ function App() {
         onChange={handleFoodChange}
       />
       </div>
-
-      <p>your city is {city}!</p>
-      <AtmDrop
-        options={[
-          { label: dataatm[0].city, value: 'Nanded' },
-        ]}
-        value={dataatm[0].city}
-
-
-
-      />
+     <p>your city is {city}!</p>
+      {loding ? ( 
+        <Showdata dataatm={dataatm}/> )
+        : (
+        <span>loading .....</span>
+      )}
     
     </div>
     </div>
   );
   
 }
+
+
 
 export default App;

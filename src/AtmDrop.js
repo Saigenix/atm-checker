@@ -6,7 +6,7 @@ import './App.css';
             {label}
             <select value={ value} onChange={onChange} className='Search'>
               {options.map((option) => (
-                <option value={option.value}>{"... " + option.label}</option>
+                <option value={option.lable}>{option.label}</option>
               ))}
             </select>
           </label>
