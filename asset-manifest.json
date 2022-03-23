@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/atm-checker/static/css/main.5096b109.css",
-    "main.js": "/atm-checker/static/js/main.e83f39bc.js",
+    "main.js": "/atm-checker/static/js/main.f4c4fce8.js",
     "static/js/787.99fc31ab.chunk.js": "/atm-checker/static/js/787.99fc31ab.chunk.js",
     "static/media/atm_header.png": "/atm-checker/static/media/atm_header.a2497db3d8e32f0b2b55.png",
     "index.html": "/atm-checker/index.html",
     "main.5096b109.css.map": "/atm-checker/static/css/main.5096b109.css.map",
-    "main.e83f39bc.js.map": "/atm-checker/static/js/main.e83f39bc.js.map",
+    "main.f4c4fce8.js.map": "/atm-checker/static/js/main.f4c4fce8.js.map",
     "787.99fc31ab.chunk.js.map": "/atm-checker/static/js/787.99fc31ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5096b109.css",
-    "static/js/main.e83f39bc.js"
+    "static/js/main.f4c4fce8.js"
   ]
 }
