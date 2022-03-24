@@ -5,9 +5,9 @@ import './App.css';
          
           <label >
             {label}
-            <select value={ value}onChange={onChange} className='atmstyle' >
+            <select value={ value}onChange={onChange} className='atmstyle' isDisabled={true}>
               {options.map((option) => (
-                <option value={option.label } className='options'>{option.label}</option>
+                <option value={option.label} className='options'>{option.label}</option>
               ))}
             </select>
           </label>

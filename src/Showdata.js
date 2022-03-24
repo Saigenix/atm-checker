@@ -23,7 +23,7 @@ const Showdata = (props) => {
       { label: `Open: ${data.open}`, value: 'Nanded' },
     ]}
     
-    // value={dataa}
+    value={data.atmName}
    // onChange={handleFoodChange}
     />)
 
