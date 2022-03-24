@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/atm-checker/static/css/main.06abf5e2.css",
-    "main.js": "/atm-checker/static/js/main.62a8b021.js",
+    "main.js": "/atm-checker/static/js/main.5370dfc0.js",
     "static/js/787.99fc31ab.chunk.js": "/atm-checker/static/js/787.99fc31ab.chunk.js",
     "static/media/bg.jpeg": "/atm-checker/static/media/bg.f960e9879452d7ab77a8.jpeg",
     "static/media/atm_header.png": "/atm-checker/static/media/atm_header.a2497db3d8e32f0b2b55.png",
     "static/media/Vector.png": "/atm-checker/static/media/Vector.b223a30f49aaa9e9f9be.png",
     "index.html": "/atm-checker/index.html",
     "main.06abf5e2.css.map": "/atm-checker/static/css/main.06abf5e2.css.map",
-    "main.62a8b021.js.map": "/atm-checker/static/js/main.62a8b021.js.map",
+    "main.5370dfc0.js.map": "/atm-checker/static/js/main.5370dfc0.js.map",
     "787.99fc31ab.chunk.js.map": "/atm-checker/static/js/787.99fc31ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06abf5e2.css",
-    "static/js/main.62a8b021.js"
+    "static/js/main.5370dfc0.js"
   ]
 }
