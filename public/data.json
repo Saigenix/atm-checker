@@ -1,16 +1,16 @@
 [ {
     "id" : "1",
     "atmName" : "SBI Nanded",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Vishnupuri, Nanded",
     "city" : "Nanded",
-    "AvailableCash": 100000,
+    "AvailableCash": 70000,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
 }, {
     "id" : "2",
     "atmName" : "SBI pune 1",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Shivaji Nagar, Pune",
     "city" : "Pune",
     "AvailableCash": 100000,
     "transactionLimit": "20000",
@@ -19,16 +19,16 @@
 }, {
     "id" : "3",
     "atmName" : "SBI Latur",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Gandhi Chawk, Latur",
     "city" : "Latur",
-    "AvailableCash": 100000,
+    "AvailableCash": 104500,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
 }, {
     "id" : "4",
     "atmName" : "SBI Nagpur",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Katraj, Nagpur",
     "city" : "Nagpur",
     "AvailableCash": 0,
     "transactionLimit": "20000",
@@ -37,43 +37,43 @@
 }, {
     "id" : "5",
     "atmName" : "Bank of London",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Time Square, London",
     "city" : "London",
-    "AvailableCash": 100000,
+    "AvailableCash": 100100,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
 }, {
     "id" : "6",
     "atmName" : "SBI Mumbai",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Kharadi, Mumbai",
     "city" : "Mumbai",
-    "AvailableCash": 100000,
+    "AvailableCash": 102200,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
 }, {
     "id" : "7",
     "atmName" : "SBI LATUR 2 ",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Bus Stand, Latur",
     "city" : "Latur",
-    "AvailableCash": 100000,
+    "AvailableCash": 100500,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
 }, {
     "id" : "8",
     "atmName" : "SBI Nagpur 2",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Diksha Nagar, Nagpur",
     "city" : "Nagpur",
-    "AvailableCash": 100000,
+    "AvailableCash": 134000,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
 }, {
     "id" : "9",
     "atmName" : "SBI Pune 2",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Hadapsar, Pune",
     "city" : "Pune",
     "AvailableCash": 100000,
     "transactionLimit": "20000",
@@ -82,18 +82,18 @@
 }, {
     "id" : "10",
     "atmName" : "SBI Nashik 1",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Nashik Road, Nashik",
     "city" : "Nashik",
-    "AvailableCash": 100000,
+    "AvailableCash": 60000,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 
 }, {
     "id" : "11",
     "atmName" : "SBI Nanded 2",
-    "atmLocation" : "sbi_atm_location",
+    "atmLocation" : "Anand Nagar, Nanded",
     "city" : "Nanded",
-    "AvailableCash": 100000,
+    "AvailableCash": 80000,
     "transactionLimit": "20000",
     "acceptedCards" : ["visa","mastercard","rupay"],
     "open": true 

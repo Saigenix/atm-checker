@@ -57,7 +57,7 @@ function App() {
           { label: 'Latur', value: 'Latur' },
           { label: 'Pune', value: 'Pune' },
           { label: 'London', value: 'London' },
-          { label: 'Latkahi tri', value: 'Latdoish' },
+          { label: 'Dubai', value: 'Dubai' },
           { label: 'Nagpur', value: 'Nagpur' },
           { label: 'Nashik', value: 'Nashik' },
           { label: 'Mumbai', value: 'Mumbai' },
